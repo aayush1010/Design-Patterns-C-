@@ -1,6 +1,0 @@
-D:\test\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
-D:\test\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
-D:\test\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
-D:\test\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
-D:\test\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
-D:\test\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
