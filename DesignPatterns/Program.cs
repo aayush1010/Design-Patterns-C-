@@ -7,6 +7,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+            // Factory Pattern
             var fridge = Samsung.Factory.GetNewFridge();
             var washingMachine = Samsung.Factory.GetNewWashingMachine();
 
