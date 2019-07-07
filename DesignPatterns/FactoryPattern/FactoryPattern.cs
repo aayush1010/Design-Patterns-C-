@@ -1,4 +1,4 @@
-﻿// Factory Pattern 
+﻿// Factory Pattern for samsung factory
 namespace DesignPatterns.FactoryPattern
 {
     /// <summary>

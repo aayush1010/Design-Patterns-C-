@@ -1,4 +1,4 @@
-﻿using System;
+﻿// Fluent Builder Pattern for HTML Builder
 using System.Collections.Generic;
 using System.Text;
 
