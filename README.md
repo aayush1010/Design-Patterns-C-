@@ -1,4 +1,4 @@
-# Design-Patterns-C#
+# Design-Patterns-C-
 Design patterns in C#
 
 - Factory Pattern
