@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.FactoryPattern;
 using DesignPatterns.FluentBuilderPattern;
+using DesignPatterns.PrototypePattern;
 using System;
 
 namespace DesignPatterns
@@ -16,11 +17,17 @@ namespace DesignPatterns
             Console.WriteLine(washingMachine.ToString());
 
 
-            // Fluent Builder
+            // Fluent Builder Pattern
             var htmlBuilder = new HtmlBuilder("html");
             htmlBuilder.AddChild("head", "").AddChild("body", "<p>Hello World!</p>").AddChild("script", "");
             Console.WriteLine(htmlBuilder.ToString());
 
+            // Prototype Patten
+            var hondaAmaze = new Car(5, new Engine(1600));
+            var hondaCity = new Car(hondaAmaze);
+            hondaCity.Engine.Capacity = 2000;
+            Console.WriteLine(hondaAmaze);
+            Console.WriteLine(hondaCity);
             Console.ReadLine();
 
 
