@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BridgePattern\BridgePattern.cs" />
     <Compile Include="FactoryPattern\FactoryPattern.cs" />
     <Compile Include="FluentBuilderPattern\FluentBuilderPattern.cs" />
     <Compile Include="Program.cs" />

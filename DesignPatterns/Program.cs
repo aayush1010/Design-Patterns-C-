@@ -1,4 +1,5 @@
-﻿using DesignPatterns.FactoryPattern;
+﻿using DesignPatterns.BridgePattern;
+using DesignPatterns.FactoryPattern;
 using DesignPatterns.FluentBuilderPattern;
 using DesignPatterns.PrototypePattern;
 using System;
@@ -28,8 +29,13 @@ namespace DesignPatterns
             hondaCity.Engine.Capacity = 2000;
             Console.WriteLine(hondaAmaze);
             Console.WriteLine(hondaCity);
-            Console.ReadLine();
 
+            // Bridge Pattern
+            var circle = new Circle(new Pencil(), 5);
+            circle.Draw();
+            circle = new Circle(new Pen(), 5);
+            circle.Draw();
+            Console.ReadLine();
 
         }
     }
